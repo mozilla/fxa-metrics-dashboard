@@ -5,7 +5,13 @@
 }
 
 body {
-  border-top: 22px solid orange;
+  border-left: 22px solid orange;
+  padding-bottom: 1000px;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 20px;
 }
 
 img {
@@ -13,8 +19,27 @@ img {
   padding: 5px;
   margin: 5px;
   border: 2px solid grey;
+  background: white;
+}
+
+img {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 img:hover {
+  -webkit-transform:scale(2.25);
+  -moz-transform:scale(2.25);
+  -ms-transform:scale(2.25);
+  -o-transform:scale(2.25);
+  transform:scale(2.25);
+  -webkit-transform-origin : left top;
+  -moz-transform-origin : left top;
+  -o-transform-origin : left top;
+  -ms-transform-origin : left top;
+  transform-origin : left top;
   border: 2px solid orange;
 }

@@ -1,17 +1,17 @@
 [
   {
-    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/event_count_android/data/event_count_android.ipynb"
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/weekly_created_percentage/data/weekly_created_percentage.ipynb"
   },
   {
-    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/event_count_android/data/event_count_android.ipynb"
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/weekly_login_percentage/data/weekly_login_percentage.ipynb"
   },
   {
-    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/event_count_android/data/event_count_android.ipynb"
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_all/data/created_then_anything_by_platform_all.ipynb"
   },
   {
-    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/event_count_android/data/event_count_android.ipynb"
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_android/data/created_then_anything_by_platform_android.ipynb"
   },
   {
-    "url": "http://"
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_windows_10/data/created_then_anything_by_platform_windows_10.ipynb"
   }
 ]
