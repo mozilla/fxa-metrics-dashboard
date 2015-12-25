@@ -7,6 +7,7 @@
 body {
   border-left: 22px solid orange;
   padding-bottom: 1000px;
+  overflow: scroll;
 }
 
 h1 {
