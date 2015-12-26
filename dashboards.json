@@ -6,12 +6,33 @@
     "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/weekly_login_percentage/data/weekly_login_percentage.ipynb"
   },
   {
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/weekly_created_percentage_by_service/data/weekly_created_percentage_by_service.ipynb"
+  },
+  {
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/weekly_login_percentage_by_service/data/weekly_login_percentage_by_service.ipynb"
+  },
+  {
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/weekly_created_vs_login_percentage/data/weekly_created_vs_login_percentage.ipynb"
+  },
+  {
     "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_all/data/created_then_anything_by_platform_all.ipynb"
   },
   {
     "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_android/data/created_then_anything_by_platform_android.ipynb"
   },
   {
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_all_windows/data/created_then_anything_by_platform_all_windows.ipynb"
+  },
+  {
     "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_windows_10/data/created_then_anything_by_platform_windows_10.ipynb"
+  },
+  {
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_windows_7/data/created_then_anything_by_platform_windows_7.ipynb"
+  },
+  {
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_macintosh/data/created_then_anything_by_platform_macintosh.ipynb"
+  },
+  {
+    "url": "http://nbviewer.ipython.org/urls/s3-us-west-2.amazonaws.com/telemetry-public-analysis-2/created_then_anything_by_platform_linux/data/created_then_anything_by_platform_linux.ipynb"
   }
 ]
