@@ -12,9 +12,13 @@
 <body>
   <h1>fxa-telemetry-dashboards (CONFIDENTIAL)</h1>
   <h2>10% Sample rate. Updated every Thursday.</h2>
-  <div id="placeholder"><img src="spinner.gif"/></div>
+  <button id="login">Login with LDAP</button>
+  <button id="logout" style="display: none">Logout</button>
+  <div id="placeholder"><img id="spinner" style="display: none" src="spinner.gif"/></div>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://apis.google.com/js/platform.js"></script>
+<script src="/config"></script>
 <script src="index.js"></script>
 
 </body>

@@ -15,6 +15,16 @@ h1 {
   padding-top: 20px;
 }
 
+button {
+  background: orange;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 34px;
+  padding: 10px;
+  margin: 10px;
+}
+
 img {
   max-width: 400px;
   padding: 5px;

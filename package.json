@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MPL-2.0",
   "dependencies": {
     "async": "1.5.0",
+    "body-parser": "^1.14.2",
     "express": "4.13.3",
+    "express-session": "^1.13.0",
+    "fxa-jwtool": "^0.7.2",
     "lodash": "3.10.1",
     "serve-static": "1.10.0",
     "x-ray": "2.0.2"
