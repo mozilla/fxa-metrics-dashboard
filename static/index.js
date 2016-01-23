@@ -1,8 +1,10 @@
 ;window.loggedInEmail = null
 
+var PLACEHOLDER = $('#placeholder');
+
 function logout() {
-  $.post('/api/logout');
-  $('#placeholder').html('');
+  $.post('/auth/logout');
+  PLACEHOLDER.html('');
 }
 
 function updateUI(data) {
@@ -18,7 +20,10 @@ function updateUI(data) {
         items.push('<a target="_blank" href="' + val + '"><img src="' + val + '" id="dash"' + key + '"/></a>');
       });
 
-      $('#placeholder').html(items)
+      PLACEHOLDER.html(items)
+      PLACEHOLDER.lightGallery({
+        thumbnail:true
+      });
 
     });
   } else {
@@ -35,11 +40,10 @@ function signInChanged(signedIn) {
 
 function userChanged(user) {
   var id_token = user.getAuthResponse().id_token
-  console.log('user changed: ' + id_token)
   if (id_token) {
     $.ajax({
       type: 'POST',
-      url: '/api/auth', // this creates a cookie used to authenicate other api requests
+      url: '/auth/login', // this creates a cookie used to authenicate other api requests
       data: 'idtoken=' + id_token,
       contentType: 'application/x-www-form-urlencoded',
       dataType: 'json',

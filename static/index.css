@@ -6,8 +6,6 @@
 
 body {
   border-left: 22px solid orange;
-  padding-bottom: 1000px;
-  overflow: scroll;
 }
 
 h1 {
@@ -25,7 +23,7 @@ button {
   margin: 10px;
 }
 
-img {
+#placeholder img {
   max-width: 400px;
   padding: 5px;
   margin: 5px;
@@ -33,24 +31,6 @@ img {
   background: white;
 }
 
-img {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-img:hover {
-  -webkit-transform:scale(2.25);
-  -moz-transform:scale(2.25);
-  -ms-transform:scale(2.25);
-  -o-transform:scale(2.25);
-  transform:scale(2.25);
-  -webkit-transform-origin : left top;
-  -moz-transform-origin : left top;
-  -o-transform-origin : left top;
-  -ms-transform-origin : left top;
-  transform-origin : left top;
-  border: 2px solid orange;
+.lg-outer * {
+  text-align: left;
 }
